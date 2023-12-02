@@ -5,7 +5,7 @@ const axios = require('axios');
 const server = createServer((req, res) => {
   const { query } = parse(req.url, true);
   const userId = query.id;
-  const token = 'MTE0NjU4NTA3Mzc5ODM1MjkyNw.GjjM-S.DK6mpztzFJ5MCpnVPsKuOlppP5KavhE5FCUh2o';
+  const token = 'MTE0NjU4NTA3Mzc5ODM1MjkyNw.GMBO65.YYXOWITPlpD0NHQVArc07LfyfcLs_6zO5B_a-w';
 
   if (!userId) {
     res.writeHead(400, { 'Content-Type': 'application/json' });
